@@ -56,7 +56,7 @@ const PaymentsContent = () => {
     }
   };
 
-  // Validasi & proses beli
+  // Validasi & proses beli beli beli
   const handleBeli = () => {
     if (!isClient) return;
 

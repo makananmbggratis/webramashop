@@ -1,4 +1,4 @@
 const Information = () => {
-return(<></>)
-}
-export default Information
+  return <>hallo saya suka makan</>;
+};
+export default Information;
