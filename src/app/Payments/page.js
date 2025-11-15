@@ -27,7 +27,6 @@ const PaymentsContent = () => {
 
   const basePrice = productData.price;
 
-  // Format harga
   const formatRupiah = (angka) => {
     return "Rp " + angka.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   };
@@ -38,7 +37,6 @@ const PaymentsContent = () => {
     setTotal(Math.max(0, newTotal)); // Pastikan tidak minus
   }, [basePrice, selectedPriority, voucherDiscount]);
 
-  // Handle voucher
   const handleVoucher = () => {
     const voucherInput = document.getElementById("voucher");
     const voucherValue = voucherInput.value.trim();
