@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Payments = () => {
-  const huhudb = "riuundfhhgn";
+  const huhudb = "riuundfhhgnhbjn";
   const searchParams = useSearchParams();
   const [total, setTotal] = useState(0);
   const [voucherMessage, setVoucherMessage] = useState("");
