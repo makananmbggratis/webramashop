@@ -86,7 +86,6 @@ const PaymentsContent = () => {
     // Simpan ke localStorage
     localStorage.setItem("orderData", JSON.stringify(orderData));
 
-    // Format pesan WhatsApp
     const whatsappMessage = `
 Halo Admin! ✨
 Ada pesanan baru dari *${nama.trim()}*.
