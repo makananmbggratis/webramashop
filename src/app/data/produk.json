@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "produk": {
+        "judul": "Kemeja Polos Katun",
+        "deskripsi": "Kemeja katun slim fit yang adem dipakai.",
+        "harga": 175000
+      }
+    },
+    {
+      "produk": {
+        "judul": "Celana Jeans Stretch",
+        "deskripsi": "Jeans biru gelap bahan stretch, nyaman seharian.",
+        "harga": 225000
+      }
+    },
+    {
+      "produk": {
+        "judul": "Hoodie Oversize Unisex",
+        "deskripsi": "Fleece lembut, cocok untuk gaya santai.",
+        "harga": 199000
+      }
+    },
+    {
+      "produk": {
+        "judul": "kondom",
+        "deskripsi": "Fleece lembut, cocok untuk gaya santai.",
+        "harga": 190090
+      }
+    }
+  ]
+}
