@@ -5,12 +5,12 @@ const Products = ({ namaProduk, deskProduk, hargaProduk }) => {
 
   const handleClick = () => {
     // arahkan ke halaman pembayaran dengan query
-    // router.push(
-    //   `/Payments?product=${encodeURIComponent(
-    //     namaProduk
-    //   )}&price=${hargaProduk}&id=WEB001`
-    // );
-    router.push(`/Information`)
+    router.push(
+      `/Payments?product=${encodeURIComponent(
+        namaProduk
+      )}&price=${hargaProduk}&id=WEB001`
+    );
+    // router.push(`/Information`)
   };
   return (
     <div className="card bg-white rounded-xl shadow-md overflow-hidden">
