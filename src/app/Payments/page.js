@@ -1,6 +1,5 @@
 "use client";
 import "./style.css";
-import { connection } from "next/server";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
