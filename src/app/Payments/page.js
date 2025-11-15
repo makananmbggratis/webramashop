@@ -5,7 +5,6 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
 
-// Komponen utama yang menggunakan useSearchParams
 const PaymentsContent = () => {
   const searchParams = useSearchParams();
   const [total, setTotal] = useState(0);
@@ -15,7 +14,6 @@ const PaymentsContent = () => {
   const [voucherDiscount, setVoucherDiscount] = useState(0);
   const [isClient, setIsClient] = useState(false);
 
-  // Pastikan hanya dijalankan di client
   useEffect(() => {
     setIsClient(true);
   }, []);
